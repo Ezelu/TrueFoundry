@@ -1,0 +1,50 @@
+.container {
+  background: #004269;
+  display: grid;
+  grid-template-columns: 70% 30%;
+  padding: 0.5%;
+  color: white;
+}
+
+.container p {
+  padding: 1%;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.container p:hover {
+  background: #085480;
+}
+
+.container .widget, .nav {
+  display: flex;
+  align-items: center;
+}
+
+.container .nav {
+  width: 100%;
+}
+
+.container .widget b {
+  font-size: 0.9em;
+  color: darkblue;
+}
+
+
+
+
+
+
+
+.horizontalBar {
+  background: orange;
+  width: 52px;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 58px 0.5%;
+  z-index: -2;
+  background: #004269;
+  cursor: pointer
+}

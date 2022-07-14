@@ -1,0 +1,74 @@
+
+.box {
+  background: whitesmoke;
+  margin-bottom: 5%;
+  padding: 1% 5%;
+  padding-bottom: 4%;
+  border-radius: 7px;
+}
+
+.box .title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.box h3 {
+  font-size: 1em;
+  color: rgb(72, 72, 72)
+}
+
+.box .slate aside {
+  background: white;
+  padding: 3% 5%;
+  margin-bottom: 4%;
+  border-radius: 5px;
+  box-shadow: 0 2px 2px grey;
+  font-size: 0.9em;
+  cursor: pointer;
+}
+
+.box .slate aside:hover {
+  background: whitesmoke;
+}
+
+.box .slate aside span {
+  display: block;
+  height: 8px;
+  width: 15%;
+  border-radius: 20px;
+}
+
+.box .slate aside p {
+  margin-top: 1%;
+}
+
+
+.box .addBtn {
+  background: transparent;
+  height: 30px;
+  width: 100%;
+  outline: 0;
+  padding: 0;
+  border: 0;
+  font-size: 1em;
+  cursor: pointer;
+  text-align: left;
+  padding: 0 2%;
+  transition: background 0.5s ease;
+  color: rgb(72, 72, 72)
+}
+
+.box .addBtn:hover {
+  background: rgb(160, 160, 160);
+  color: white;
+}
+
+
+
+
+
+
+
+
+

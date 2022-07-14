@@ -1,0 +1,39 @@
+body {
+  background: rgb(35, 122, 208);
+}
+
+.container {
+  background: rgb(35, 122, 208);
+  height: 100%;
+}
+
+article {
+  padding: 5% 2%;
+  display: grid;
+  grid-template-columns: 23.5% 23.5% 23.5% 23.5%;
+  gap: 2%;
+}
+
+.addAnotherList form {
+  background: whitesmoke;
+  border-radius: 8px;
+  padding: 5%;
+}
+
+.addAnotherList .btn {
+  background: hsla(0,0%,100%,.2);
+  color: white;
+  height: 40px;
+  width: 100%;
+  outline: 0;
+  border: 0;
+  text-align: left;
+  padding: 1% 3%;
+  cursor: pointer;
+}
+
+.addAnotherList .btn:hover {
+  background: hsla(0,0%,100%,.5);
+}
+
+

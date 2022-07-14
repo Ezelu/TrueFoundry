@@ -1,0 +1,17 @@
+
+.header {
+    display: flex;
+    align-items: center;
+    color: white;
+    padding: 0.4% 1%;
+    gap: 1%;
+}
+
+.header button {
+  padding: 0.5% 0.8%;
+  border: 0;
+  outline: 0;
+  border-radius: 3px;
+  color: rgb(255, 255, 255);
+  background-color: rgba(255, 255, 255, 0.3);
+}
