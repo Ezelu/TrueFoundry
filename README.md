@@ -22,6 +22,8 @@ This is a mini replica of the trello app
 > Run npm start
 > 
 > Visit localhost:3000
+>
+> Refresh the page
 > 
 > Voila!, your web app is now powered up
 
